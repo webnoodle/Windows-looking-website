@@ -26,16 +26,16 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 70px;
     width: 600px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #time {
     float: left;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 70px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .tile1 {
@@ -61,3 +61,48 @@ body {
     float: left;
 }
 
+.tile4 {
+    margin: 10px;
+    width: 480px;
+    height: 142px;
+    background-color: orangered;
+}
+
+.tile5 {
+    margin: 10px;
+    width: 480px;
+    height: 304px;
+    background-color: #666666;
+}
+
+.youtube {
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #d94348;
+    float: left;
+}
+
+.facebook {
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #4668b3;
+    float: left;
+}
+
+.gplus {
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #d95333;
+    float: left;
+}
+
+.twitter {
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #3095d3;
+    float: left;
+}
