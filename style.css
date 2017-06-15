@@ -93,10 +93,11 @@ body {
 
 .tile5 {
     margin: 10px;
-    width: 480px;
-    height: 304px;
+    width: 420px;
+    height: 244px;
     background-color: #666666;
-    text-align: center;
+    text-align: justify;
+    padding: 30px;
 }
 
 .youtube {
@@ -147,3 +148,15 @@ body {
     background-color: #2084c2;
 }
 
+a.tilelink {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+
+a.tilelinkhtml5 {
+    color: #fff;
+    text-decoration: none;
+}
