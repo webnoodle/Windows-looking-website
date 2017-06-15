@@ -14,6 +14,7 @@ body {
 .rectangle {
     width: 960px;
     margin: 20;
+    text-align: center;
 }
 
 .square {
@@ -26,24 +27,31 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 70px;
     width: 600px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #time {
     float: left;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 70px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .tile1 {
     margin: 10px;
     width: 230px;
     height: 142px;
-    background-color: brown;
+    background-color: #a52a2a;
     float: left;
+    text-align: center;
+}
+
+.tile1:hover {
+    background-color: #a31a1a;
 }
 
 .tile2 {
@@ -52,20 +60,35 @@ body {
     height: 142px;
     background-color: #3095d3;
     float: left;
+    text-align: center;
 }
+
+.tile2:hover {
+    background-color: #2084c2;
+}
+
 .tile3 {
     margin: 10px;
     width: 230px;
     height: 142px;
-    background-color: limegreen;
+    background-color: #32cd32;
     float: left;
+    text-align: center;
+}
+
+.tile3:hover {
+    background-color: #21bc21;
 }
 
 .tile4 {
     margin: 10px;
-    width: 480px;
-    height: 142px;
+    width: 420px;
+    height: 82px;
     background-color: orangered;
+    text-align: center;
+    font-size: 26px;
+    padding: 30px;
+    line-height: 150%;
 }
 
 .tile5 {
@@ -73,6 +96,7 @@ body {
     width: 480px;
     height: 304px;
     background-color: #666666;
+    text-align: center;
 }
 
 .youtube {
@@ -83,12 +107,20 @@ body {
     float: left;
 }
 
+.youtube:hover {
+    background-color: #c83237;
+}
+
 .facebook {
     margin: 10px;
     width: 105px;
     height: 142px;
     background-color: #4668b3;
     float: left;
+}
+
+.facebook:hover {
+    background-color: #3557a2;
 }
 
 .gplus {
@@ -99,6 +131,10 @@ body {
     float: left;
 }
 
+.gplus:hover {
+    background-color: #c84222;
+}
+
 .twitter {
     margin: 10px;
     width: 105px;
@@ -106,3 +142,8 @@ body {
     background-color: #3095d3;
     float: left;
 }
+
+.twitter:hover {
+    background-color: #2084c2;
+}
+
