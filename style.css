@@ -148,7 +148,7 @@ body {
     background-color: #2084c2;
 }
 
-a.tilelink {
+a.tileLink {
     color: #fff;
     text-decoration: none;
     display: block;
@@ -156,7 +156,15 @@ a.tilelink {
     height: 142px;
 }
 
-a.tilelinkhtml5 {
+a.tileLinkHtml5 {
     color: #fff;
     text-decoration: none;
+}
+
+a.socialLink {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 105px;
+    height: 142px;
 }
